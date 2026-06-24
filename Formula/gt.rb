@@ -1,8 +1,8 @@
 class Gt < Formula
   desc "AI-powered git commit tool that generates conventional commit messages"
   homepage "https://github.com/AgentGino/gt"
-  url "https://github.com/AgentGino/gt/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "aad763a73ead8a5475b0368823d1467299a8fcf68331f9d0cb10edff183540bb"
+  url "https://github.com/AgentGino/gt/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "7436a38f71b272265f85e2ffe3fecfdaf47c2da037d17cc7b7c303dc95351884"
   license "MIT"
 
   depends_on "go" => :build
