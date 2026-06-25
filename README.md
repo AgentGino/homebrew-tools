@@ -17,6 +17,7 @@ Install a tool:
 ```bash
 brew install gt
 brew install stacky
+brew install yo
 ```
 
 Install directly without tapping first:
@@ -24,13 +25,14 @@ Install directly without tapping first:
 ```bash
 brew install AgentGino/tools/gt
 brew install AgentGino/tools/stacky
+brew install AgentGino/tools/yo
 ```
 
 Update installed tools:
 
 ```bash
 brew update
-brew upgrade gt stacky
+brew upgrade gt stacky yo
 ```
 
 Remove the tap:
@@ -45,6 +47,7 @@ brew untap AgentGino/tools
 |---|---|---|
 | `gt` | Build from source | AI-powered git commit tool that generates conventional commit messages. |
 | `stacky` | Prebuilt binaries | CLI for deploying Supabase-like backends on your own AWS account. |
+| `yo` | Build from source | OpenRouter-powered terminal assistant with model selection. |
 
 ## Repo Layout
 
@@ -52,6 +55,7 @@ brew untap AgentGino/tools
 Formula/
   gt.rb
   stacky.rb
+  yo.rb
 README.md
 ```
 
